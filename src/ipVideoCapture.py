@@ -14,7 +14,7 @@ class IpVideoCapture:
         name = newName.create_name()
 
         # Define o objeto VideoWriter para salvar o vídeo
-        output = cv2.VideoWriter( './videos/'+name+'_.mp4', cv2.VideoWriter_fourcc(*'mp4v'), fps, (width, height))
+        output = cv2.VideoWriter( './videos/'+name+'.mp4', cv2.VideoWriter_fourcc(*'mp4v'), fps, (width, height))
 
         while True:
             _, frame = capture.read()
