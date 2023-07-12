@@ -10,4 +10,4 @@ class FileNewName:
         hour = str(now.hour).zfill(2)
         minute = str(now.minute).zfill(2)
         second = str(now.second).zfill(2)
-        return f"{year}{month}{day}_{hour}{minute}{second}.mp4"
+        return f"{year}{month}{day}_{hour}{minute}{second}_vid.mp4"
