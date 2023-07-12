@@ -1,6 +1,5 @@
 from src.ipVideoCapture import IpVideoCapture
 
-
-
-videoCapture = IpVideoCapture()
-videoCapture.start("http://192.168.3.14:4747/video")
+# Ip da camera que transmite o dados
+# IP of the canera that transmits the data
+IpVideoCapture().start("http://192.168.3.14:4747/video")
